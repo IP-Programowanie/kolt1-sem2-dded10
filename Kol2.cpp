@@ -1,4 +1,5 @@
 #include "Wybor.h"
+#include "Uzytkownik.h"
 
 using namespace std;
 
