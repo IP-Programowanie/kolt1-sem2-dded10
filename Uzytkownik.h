@@ -47,6 +47,7 @@ public:
     virtual void zaloguj(const char* podane_haslo);
     void setAll(const char* nazwa, Uprawnienia upr, double czas, Uzytkownik* wspol, Haslo& haslo);
 
+    //dodaem by odczytac wartosci w dziedziczeniu
     Uprawnienia getUprawnienia() const;
     double getCzasUzytkowania() const;
     Uzytkownik* getWspolpracownik() const;
